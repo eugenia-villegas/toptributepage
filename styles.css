@@ -148,10 +148,22 @@ footer {
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     text-align: center;
-    padding: 1% 2% 2% 2%;
-    margin: 0.5% 5% 2% 5%;
+    padding: 1% 2% 1% 2%;
+    margin: 0.5% 5% 0.5% 5%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    font-size: small;
 }
 
+h3 {
+    padding-bottom: 0.75%;
+}
+
+.followme-icon {
+    width: 2rem;
+    height: 2rem;
+    background-color: #5e868f;
+    color: rgb(32, 30, 63);
+    font-size: 2rem;
+}
