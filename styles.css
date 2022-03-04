@@ -1,0 +1,157 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+/*Background*/
+
+.bg-image {
+    padding-top: 1rem;
+    background-image: url("img/top2.jpg");
+    background-position: center;
+    height: 1000px;
+
+}
+
+h2 {
+    font-size: larger;
+    font-weight: bold;
+    color: #ff569fb9;
+}
+
+/*Header*/
+
+header {
+    background-image: url("img/logo.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 7em;
+    margin: 0 5% 0 5%;
+    
+}
+
+/*Title*/
+
+#title {
+    text-align: center;
+    position: relative;
+    top: 65%;
+    color: #ff569fb9;
+    font-weight: bolder;
+    text-align: center;
+    font-size: larger;
+}
+
+/*Main Section*/
+
+#main {
+    background-color: rgba(245, 245, 245, 0.445);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    margin: 0.5% 5% 1.5% 5%;
+    font-size: 17px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 2% 2% 2%;
+}
+
+#image {
+    height: 350px;
+    width: 600px;
+    border-radius: 5%;
+    box-shadow: 4px 4px 4px 4px #ff569f65;
+}
+
+#img-div {
+    text-align: center;
+    font-size: small;
+}
+
+/*Discography*/
+
+#discography {
+    background-color: rgba(245, 245, 245, 0.445);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    padding: 1% 2% 2% 2%;
+    margin: 0.5% 5% 2% 5%;
+}
+
+#discography div {
+    padding-top: 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#discography img {
+    width: 162px;
+    height: 162px;
+    border-radius: 40%;
+}
+
+#discography img:hover {
+    animation-name: resizing;
+    animation-duration: 2s;
+}
+  
+@keyframes resizing {
+    0% {
+        border-radius: 40%;
+    }
+    100% {
+        border-radius: 0;
+    }
+}
+  
+
+
+/*Social Media Section*/
+#social-media {
+    background-color: rgba(245, 245, 245, 0.445);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    padding: 1% 2% 2% 2%;
+    margin: 0.5% 5% 2% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#social-media div {
+    padding-top: 1%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sm-icon {
+    width: 4rem;
+    height: 4rem;
+    background-color: #5db8cc;
+    color: #fff;
+    font-size: 4rem;
+}
+
+
+footer {
+    background-color: rgba(245, 245, 245, 0.445);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    padding: 1% 2% 2% 2%;
+    margin: 0.5% 5% 2% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
